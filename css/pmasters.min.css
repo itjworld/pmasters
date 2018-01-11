@@ -1,0 +1,183 @@
+html,
+body {
+  height: 100%;
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* Layout */
+.wrapper {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+.layout-boxed .wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  min-height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.navbar-inverse{
+	background-color:#080808;
+}
+.left_menu{
+	width:45%;
+}
+.right_menu{
+	width:45%;
+}
+.navbar-nav >li{
+	text-transform: uppercase;
+	font-weight: bold !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ef4836;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.footer-multi-wrapper {
+    background-color: #0a0a0a;
+    float: left;
+    width: 100%;
+    padding-top: 3%;
+}
+.content-first {
+    margin-top: 50px!important;
+    margin-bottom: 0px !important;
+    background-image: url(http://www.indianpac.com/wp-content/uploads/2015/12/aboutt-1.jpg?id=5521) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.content-second{
+    margin-bottom: 0px !important;
+    padding-top: 100px !important;
+    padding-bottom: 112px !important;
+    background-color: #f6f6f6 !important;
+}
+
+.section-info {
+    padding: 20px;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+.background-color-white{
+	background-color:#ffffff
+}
+.text-color-white{
+	color:#ffffff
+}
+.title-description{
+	padding-top: 25px;
+	color: #ffffff;
+}
+.empty_space{
+	height: 60px;
+}
+.section-info p {
+    margin-bottom: 0;
+    font-family: tahoma;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: justify;
+}
+.overlay{
+	position: absolute !important;
+}
+.text_wrapper{
+	 font-size: 14px;
+    font-family: Tahoma,Geneva, sans-serif, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+	text-align: justify;
+	
+}
+.read-more{
+	color: #ff7600 !important;
+    text-decoration: none !important;
+}
+.office {
+    color: #db761e;
+    text-transform: uppercase;
+    font-family: 'TrajanProRegular';
+    text-align: center;
+	margin-bottom:10px;
+}
+.office-address{
+    text-align: center;
+    color: #c7c7c7;
+    font-size: 12px;
+	margin-bottom:10px;
+}
+.footer-empty_space{
+	height: 30px;
+	width: 100%;
+}
+.office-address >i{
+	color: #ef4836;
+}
+.office-address >a{
+	padding-left:10px;
+	color: #c7c7c7;
+	text-decoration: none !important;
+}
+.office-address > a:hover,
+.office-address > a:focus {
+    color: #ef4836;
+}
+.footer-copyright{
+	margin-top:10px;
+	background-color: #010101;
+}
+.copyright {
+   padding-top: 5%; 
+   color: #ffffff;
+}
+
+.scrollTop {
+	position: fixed;
+    bottom: 30px;
+    right: 40px;
+    color: #ef4836;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ef4836;
+    text-align: center;
+    font-size: 24px;
+    line-height: 26px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.scrollTop:hover,
+.scrollTop:focus {
+    color: #fff;
+    background-color: #ef4836;
+    border: 1px solid transparent;
+}
